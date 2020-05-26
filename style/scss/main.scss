@@ -1,5 +1,3 @@
-@import './scss-components/media';
-
 * {
     margin: 0;
     padding: 0;
@@ -368,3 +366,5 @@ footer>.container>p {
     color: #ffffff;
     box-shadow: 2px 1px 10px 9px aliceblue;
 }
+
+@import './scss-components/media';
