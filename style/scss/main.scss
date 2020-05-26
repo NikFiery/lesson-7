@@ -308,36 +308,15 @@ form {
 }
 
 .bird__container {
-    position: relative;
-    margin-top: 61%;
+    width: 66%;
+    height: 38%;
+    margin-top: 25%;
     margin-left: 21%;
-}
-
-
-.check-sign {
-    position: absolute;
-}
-
-#check-part-1 {
-    width: 40%;
-    height: 10px;
-    transform: rotate(45deg);
-    top: -4px;
-    left: 0;
-    border-radius: 16%;
-    background: #FAFBF9;
-    position: absolute;
-}
-
-#check-part-2 {
-    width: 60%;
-    height: 10px;
-    transform: rotate(-45deg);
-    left: 8px;
-    top: -7px;
-    border-radius: 16%;
-    background: #FAFBF9;
-    position: absolute;
+    border-bottom: calc(5px + 0.4em) solid #ffffff;
+    border-left: calc(5px + 0.4em) solid #ffffff;
+    background: transparent;
+    transform: rotate(-0.12turn);
+    border-radius: 10%;
 }
 
 /*footer*/
