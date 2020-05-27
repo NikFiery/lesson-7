@@ -61,20 +61,7 @@
         height: 70vw;
     }
 
-    @media (max-width: 523px) and (max-height: 1200px) {
-        .bird__container {
-            width: 66%;
-            height: 38%;
-            margin-top: 25%;
-            margin-left: 21%;
-            border-bottom: calc(2px + 0.3em) solid #ffffff;
-            border-left: calc(2px + 0.3em) solid #ffffff;
-            background: transparent;
-            -webkit-transform: rotate(-0.12turn);
-            transform: rotate(-0.12turn);
-            border-radius: 10%;
-        }
-    }
+    @media (max-width: 523px) and (max-height: 1200px) {}
 
     .container {
         width: 90%;
@@ -162,6 +149,24 @@
     .explore__title {
         font-size: calc(18px + 1vw);
         margin: 3rem 0 3rem 0;
+    }
+
+    .maps__bird {
+        width: 45px;
+        height: 45px;
+    }
+
+    .maps__bird::before {
+        width: 10px;
+        height: 23px;
+        position: absolute;
+        top: 5px;
+        left: -4px;
+        content: '';
+        margin: 0px 20px 3px;
+        border-width: 0 8px 8px 0;
+        border: solid #FFFFFF;
+        transform: rotate(45deg);
     }
 
 }
