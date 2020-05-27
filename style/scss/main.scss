@@ -300,23 +300,27 @@ form {
 }
 
 .maps__bird {
-    width: 17%;
-    height: 17%;
+    width: 60px;
+    height: 60px;
+    align-self: center;
     background: #00D089;
     border-radius: 50%;
+    cursor: pointer;
+    position: relative;
 
 }
 
-.bird__container {
-    width: 66%;
-    height: 38%;
-    margin-top: 25%;
-    margin-left: 21%;
-    border-bottom: calc(5px + 0.4em) solid #ffffff;
-    border-left: calc(5px + 0.4em) solid #ffffff;
-    background: transparent;
-    transform: rotate(-0.12turn);
-    border-radius: 10%;
+.maps__bird::before {
+    width: 13px;
+    height: 27px;
+    position: absolute;
+    top: 9px;
+    left: -1px;
+    content: '';
+    margin: 0px 20px 3px;
+    border: solid #FFFFFF;
+    border-width: 0 10px 10px 0;
+    transform: rotate(45deg);
 }
 
 /*footer*/
