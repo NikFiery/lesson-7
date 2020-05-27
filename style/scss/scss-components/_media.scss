@@ -157,16 +157,16 @@
     }
 
     .maps__bird::before {
-        width: 10px;
-        height: 23px;
-        position: absolute;
-        top: 5px;
-        left: -4px;
-        content: '';
-        margin: 0px 20px 3px;
-        border-width: 0 8px 8px 0;
-        border: solid #FFFFFF;
-        transform: rotate(45deg);
+    width: 13px;
+    height: 27px;
+    position: absolute;
+    top: 9px;
+    left: -1px;
+    content: '';
+    margin: 0px 20px 3px;
+    border-width: 0 10px 10px 0;
+    border: solid #FFFFFF;
+    transform: rotate(45deg);
     }
 
 }
